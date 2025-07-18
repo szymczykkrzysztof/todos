@@ -4,4 +4,7 @@ import com.komy.todos.response.UserResponse;
 
 public interface UserService {
     UserResponse getUserInfo();
+
+    void deleteUser();
+
 }
